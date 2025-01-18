@@ -7,7 +7,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Kora\\Exceptions\\": "src"
+            "Kora\\Exceptions\\": ""
         }
     },
 	"autoload-dev": {

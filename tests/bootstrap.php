@@ -9,4 +9,4 @@
  * file that was distributed with this source code.
  */
 
-require_once \dirname(__FILE__, 3) . '/vendor/autoload.php';
+require_once \dirname(__FILE__, 2) . '/vendor/autoload.php';
