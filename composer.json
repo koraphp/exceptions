@@ -1,0 +1,22 @@
+{
+    "name": "kora/exceptions",
+    "description": "Exceptions for Kora.",
+    "require": {
+        "php": "^7.4 || ^8.0",
+        "symfony/var-dumper": "^5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kora\\Exceptions\\": "src"
+        }
+    },
+	"autoload-dev": {
+		"psr-4": {
+			"Exceptions\\Tests\\": "tests/"
+		}
+	},
+	"config": {
+        "optimize-autoloader": true,
+        "sort-packages": true
+    }
+}
